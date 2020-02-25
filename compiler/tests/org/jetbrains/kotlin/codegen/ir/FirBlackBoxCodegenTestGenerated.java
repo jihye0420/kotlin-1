@@ -22,7 +22,7 @@ import java.util.regex.Pattern;
 @RunWith(JUnit3RunnerWithInners.class)
 public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenTest {
     private void runTest(String testDataFilePath) throws Exception {
-        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
     }
 
     public void testAllFilesPresentInBox() throws Exception {
@@ -34,7 +34,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Annotations extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInAnnotations() throws Exception {
@@ -221,7 +221,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class AnnotatedLambda extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInAnnotatedLambda() throws Exception {
@@ -259,7 +259,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class TypeAnnotations extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInTypeAnnotations() throws Exception {
@@ -293,7 +293,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class ArgumentOrder extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInArgumentOrder() throws Exception {
@@ -371,7 +371,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Arrays extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInArrays() throws Exception {
@@ -698,7 +698,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ArraysOfInlineClass extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             @TestMetadata("accessArrayOfInlineClass.kt")
@@ -726,7 +726,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForInReversed extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForInReversed() throws Exception {
@@ -759,7 +759,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class MultiDecl extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInMultiDecl() throws Exception {
@@ -811,7 +811,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Int extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInInt() throws Exception {
@@ -844,7 +844,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Long extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInLong() throws Exception {
@@ -879,7 +879,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Assert extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInAssert() throws Exception {
@@ -906,11 +906,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Jvm extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInJvm() throws Exception {
@@ -1034,7 +1034,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class BinaryOp extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInBinaryOp() throws Exception {
@@ -1177,7 +1177,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class BoxingOptimization extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInBoxingOptimization() throws Exception {
@@ -1345,7 +1345,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Bridges extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         @TestMetadata("abstractOverrideBridge.kt")
@@ -1632,7 +1632,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class SubstitutionInSuperClass extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             @TestMetadata("abstractFun.kt")
@@ -1701,7 +1701,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class BuilderInference extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInBuilderInference() throws Exception {
@@ -1719,7 +1719,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class BuiltinStubMethods extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         @TestMetadata("abstractMember.kt")
@@ -1846,7 +1846,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ExtendJavaCollections extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             @TestMetadata("abstractList.kt")
@@ -1894,7 +1894,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class MapGetOrDefault extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInMapGetOrDefault() throws Exception {
@@ -1922,7 +1922,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class MapRemove extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInMapRemove() throws Exception {
@@ -1956,7 +1956,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class CallableReference extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInCallableReference() throws Exception {
@@ -1978,7 +1978,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Bound extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInBound() throws Exception {
@@ -2120,7 +2120,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Equals extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInEquals() throws Exception {
@@ -2154,7 +2154,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Function extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             @TestMetadata("abstractClassMember.kt")
@@ -2421,7 +2421,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Local extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInLocal() throws Exception {
@@ -2535,7 +2535,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Property extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             @TestMetadata("accessViaSubclass.kt")
@@ -2693,7 +2693,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Serializability extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInSerializability() throws Exception {
@@ -2731,7 +2731,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class VarargAndDefaults extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInVarargAndDefaults() throws Exception {
@@ -2835,7 +2835,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Casts extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInCasts() throws Exception {
@@ -2967,7 +2967,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Functions extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInFunctions() throws Exception {
@@ -3045,7 +3045,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class LiteralExpressionAsGenericArgument extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInLiteralExpressionAsGenericArgument() throws Exception {
@@ -3093,7 +3093,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class MutableCollections extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInMutableCollections() throws Exception {
@@ -3147,7 +3147,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class CheckcastOptimization extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInCheckcastOptimization() throws Exception {
@@ -3170,7 +3170,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class ClassLiteral extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInClassLiteral() throws Exception {
@@ -3192,7 +3192,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Bound extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInBound() throws Exception {
@@ -3230,7 +3230,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Java extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInJava() throws Exception {
@@ -3284,7 +3284,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Classes extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInClasses() throws Exception {
@@ -3886,7 +3886,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Inner extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInInner() throws Exception {
@@ -3935,7 +3935,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Closures extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInClosures() throws Exception {
@@ -4167,7 +4167,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class CaptureInSuperConstructorCall extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInCaptureInSuperConstructorCall() throws Exception {
@@ -4330,7 +4330,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class CaptureOuterProperty extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInCaptureOuterProperty() throws Exception {
@@ -4383,11 +4383,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class CapturedVarsOptimization extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInCapturedVarsOptimization() throws Exception {
@@ -4455,7 +4455,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ClosureInsideClosure extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInClosureInsideClosure() throws Exception {
@@ -4499,7 +4499,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class CollectionLiterals extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInCollectionLiterals() throws Exception {
@@ -4532,7 +4532,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Collections extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInCollections() throws Exception {
@@ -4640,7 +4640,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Compatibility extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInCompatibility() throws Exception {
@@ -4658,7 +4658,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Constants extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInConstants() throws Exception {
@@ -4716,7 +4716,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class ConstructorCall extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInConstructorCall() throws Exception {
@@ -4814,7 +4814,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Contracts extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInContracts() throws Exception {
@@ -4837,7 +4837,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class ControlStructures extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInControlStructures() throws Exception {
@@ -5239,7 +5239,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class BreakContinueInExpressions extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInBreakContinueInExpressions() throws Exception {
@@ -5342,7 +5342,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForInArray extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForInArray() throws Exception {
@@ -5405,7 +5405,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForInArrayWithIndex extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForInArrayWithIndex() throws Exception {
@@ -5518,7 +5518,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForInCharSequenceWithIndex extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForInCharSequenceWithIndex() throws Exception {
@@ -5601,7 +5601,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForInIterableWithIndex extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForInIterableWithIndex() throws Exception {
@@ -5669,7 +5669,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForInSequenceWithIndex extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForInSequenceWithIndex() throws Exception {
@@ -5737,7 +5737,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ReturnsNothing extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInReturnsNothing() throws Exception {
@@ -5775,7 +5775,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class TryCatchInExpressions extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInTryCatchInExpressions() throws Exception {
@@ -5939,11 +5939,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Coroutines extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         @TestMetadata("32defaultParametersInSuspend.kt")
@@ -6480,11 +6480,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Bridges extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInBridges() throws Exception {
@@ -6512,11 +6512,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ControlFlow extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInControlFlow() throws Exception {
@@ -6634,7 +6634,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Debug extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInDebug() throws Exception {
@@ -6687,11 +6687,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class FeatureIntersection extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInFeatureIntersection() throws Exception {
@@ -6773,7 +6773,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class CallableReference extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInCallableReference() throws Exception {
@@ -6800,7 +6800,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class Bound extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInBound() throws Exception {
@@ -6818,7 +6818,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class Function extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInFunction() throws Exception {
@@ -6845,7 +6845,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class Local extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInLocal() throws Exception {
@@ -6865,11 +6865,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Tailrec extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInTailrec() throws Exception {
@@ -6948,11 +6948,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class InlineClasses extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInInlineClasses() throws Exception {
@@ -6985,11 +6985,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class IntLikeVarSpilling extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInIntLikeVarSpilling() throws Exception {
@@ -7052,11 +7052,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class IntrinsicSemantics extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInIntrinsicSemantics() throws Exception {
@@ -7109,11 +7109,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class JavaInterop extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInJavaInterop() throws Exception {
@@ -7151,7 +7151,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class LocalFunctions extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInLocalFunctions() throws Exception {
@@ -7163,7 +7163,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Anonymous extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInAnonymous() throws Exception {
@@ -7181,11 +7181,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Named extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInNamed() throws Exception {
@@ -7254,11 +7254,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class MultiModule extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInMultiModule() throws Exception {
@@ -7316,11 +7316,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class RedundantLocalsElimination extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInRedundantLocalsElimination() throws Exception {
@@ -7338,7 +7338,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Reflect extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInReflect() throws Exception {
@@ -7361,11 +7361,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class StackUnwinding extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInStackUnwinding() throws Exception {
@@ -7408,11 +7408,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class SuspendFunctionAsCoroutine extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInSuspendFunctionAsCoroutine() throws Exception {
@@ -7515,11 +7515,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class SuspendFunctionTypeCall extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInSuspendFunctionTypeCall() throws Exception {
@@ -7557,11 +7557,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class TailCallOptimizations extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInTailCallOptimizations() throws Exception {
@@ -7643,7 +7643,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Unit extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInUnit() throws Exception {
@@ -7712,11 +7712,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class TailOperations extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInTailOperations() throws Exception {
@@ -7749,11 +7749,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class UnitTypeReturn extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInUnitTypeReturn() throws Exception {
@@ -7791,11 +7791,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class VarSpilling extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInVarSpilling() throws Exception {
@@ -7824,7 +7824,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class DataClasses extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInDataClasses() throws Exception {
@@ -7916,7 +7916,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Copy extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInCopy() throws Exception {
@@ -7969,7 +7969,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Equals extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInEquals() throws Exception {
@@ -8017,7 +8017,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class HashCode extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInHashCode() throws Exception {
@@ -8095,7 +8095,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ToString extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInToString() throws Exception {
@@ -8144,7 +8144,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class DeadCodeElimination extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInDeadCodeElimination() throws Exception {
@@ -8177,7 +8177,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class DefaultArguments extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInDefaultArguments() throws Exception {
@@ -8254,7 +8254,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Constructor extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInConstructor() throws Exception {
@@ -8352,7 +8352,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Convention extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInConvention() throws Exception {
@@ -8380,7 +8380,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Function extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             @TestMetadata("abstractClass.kt")
@@ -8503,7 +8503,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Private extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInPrivate() throws Exception {
@@ -8536,7 +8536,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Signature extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInSignature() throws Exception {
@@ -8565,7 +8565,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class DelegatedProperty extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         @TestMetadata("accessTopLevelDelegatedPropertyInClinit.kt")
@@ -8797,7 +8797,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Local extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInLocal() throws Exception {
@@ -8890,7 +8890,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class OptimizedDelegatedProperties extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInOptimizedDelegatedProperties() throws Exception {
@@ -8933,7 +8933,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ProvideDelegate extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInProvideDelegate() throws Exception {
@@ -9032,7 +9032,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Delegation extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInDelegation() throws Exception {
@@ -9120,7 +9120,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class DestructuringDeclInLambdaParam extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInDestructuringDeclInLambdaParam() throws Exception {
@@ -9173,7 +9173,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Diagnostics extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInDiagnostics() throws Exception {
@@ -9185,7 +9185,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Functions extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInFunctions() throws Exception {
@@ -9197,7 +9197,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Inference extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInInference() throws Exception {
@@ -9215,7 +9215,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Invoke extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInInvoke() throws Exception {
@@ -9227,7 +9227,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class OnObjects extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInOnObjects() throws Exception {
@@ -9291,7 +9291,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class TailRecursion extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInTailRecursion() throws Exception {
@@ -9510,7 +9510,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Vararg extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInVararg() throws Exception {
@@ -9529,7 +9529,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Elvis extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInElvis() throws Exception {
@@ -9572,7 +9572,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Enum extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         @TestMetadata("abstractMethodInEnum.kt")
@@ -9879,7 +9879,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class DefaultCtor extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInDefaultCtor() throws Exception {
@@ -9923,7 +9923,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Evaluate extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInEvaluate() throws Exception {
@@ -10011,7 +10011,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class ExclExcl extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInExclExcl() throws Exception {
@@ -10034,7 +10034,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class ExtensionFunctions extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInExtensionFunctions() throws Exception {
@@ -10167,7 +10167,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class ExtensionProperties extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         @TestMetadata("accessorForPrivateSetter.kt")
@@ -10255,7 +10255,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class External extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInExternal() throws Exception {
@@ -10283,7 +10283,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class FakeOverride extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInFakeOverride() throws Exception {
@@ -10316,7 +10316,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class FieldRename extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInFieldRename() throws Exception {
@@ -10354,7 +10354,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Finally extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInFinally() throws Exception {
@@ -10472,7 +10472,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class FullJdk extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInFullJdk() throws Exception {
@@ -10514,7 +10514,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Native extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInNative() throws Exception {
@@ -10542,7 +10542,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Regressions extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInRegressions() throws Exception {
@@ -10566,7 +10566,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class FunInterface extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInFunInterface() throws Exception {
@@ -10619,7 +10619,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Functions extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInFunctions() throws Exception {
@@ -10851,7 +10851,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class BigArity extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInBigArity() throws Exception {
@@ -10914,7 +10914,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class FunctionExpression extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInFunctionExpression() throws Exception {
@@ -10957,7 +10957,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Invoke extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInInvoke() throws Exception {
@@ -11045,7 +11045,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class LocalFunctions extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInLocalFunctions() throws Exception {
@@ -11189,7 +11189,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class HashPMap extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInHashPMap() throws Exception {
@@ -11232,7 +11232,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Ieee754 extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInIeee754() throws Exception {
@@ -11490,7 +11490,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Increment extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInIncrement() throws Exception {
@@ -11613,7 +11613,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Inference extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInInference() throws Exception {
@@ -11676,7 +11676,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class InlineClasses extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInInlineClasses() throws Exception {
@@ -12408,7 +12408,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class CallableReferences extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInCallableReferences() throws Exception {
@@ -12511,7 +12511,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ContextsAndAccessors extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             @TestMetadata("accessPrivateInlineClassCompanionMethod.kt")
@@ -12634,7 +12634,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class DefaultParameterValues extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInDefaultParameterValues() throws Exception {
@@ -12702,7 +12702,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class FunctionNameMangling extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInFunctionNameMangling() throws Exception {
@@ -12805,7 +12805,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class HiddenConstructor extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInHiddenConstructor() throws Exception {
@@ -12883,7 +12883,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class InterfaceMethodCalls extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInInterfaceMethodCalls() throws Exception {
@@ -12946,7 +12946,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class PropertyDelegation extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInPropertyDelegation() throws Exception {
@@ -13015,7 +13015,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class InnerNested extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInInnerNested() throws Exception {
@@ -13147,7 +13147,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class SuperConstructorCall extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInSuperConstructorCall() throws Exception {
@@ -13266,7 +13266,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Instructions extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInInstructions() throws Exception {
@@ -13278,7 +13278,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Swap extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInSwap() throws Exception {
@@ -13302,7 +13302,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Intrinsics extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInIntrinsics() throws Exception {
@@ -13435,7 +13435,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Ir extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInIr() throws Exception {
@@ -13502,7 +13502,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ClosureConversion extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInClosureConversion() throws Exception {
@@ -13555,7 +13555,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class PrimitiveNumberComparisons extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInPrimitiveNumberComparisons() throws Exception {
@@ -13588,7 +13588,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class SerializationRegressions extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInSerializationRegressions() throws Exception {
@@ -13622,7 +13622,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class JavaInterop extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInJavaInterop() throws Exception {
@@ -13649,7 +13649,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Generics extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInGenerics() throws Exception {
@@ -13682,7 +13682,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class NotNullAssertions extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInNotNullAssertions() throws Exception {
@@ -13779,7 +13779,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class EnhancedNullability extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInEnhancedNullability() throws Exception {
@@ -13833,7 +13833,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ObjectMethods extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInObjectMethods() throws Exception {
@@ -13877,7 +13877,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Jdk extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInJdk() throws Exception {
@@ -13930,7 +13930,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Jvm8 extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInJvm8() throws Exception {
@@ -14052,7 +14052,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Defaults extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             @TestMetadata("accessor.kt")
@@ -14194,7 +14194,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Compatibility extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInCompatibility() throws Exception {
@@ -14272,7 +14272,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class DelegationBy extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInDelegationBy() throws Exception {
@@ -14295,7 +14295,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class NoDelegation extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInNoDelegation() throws Exception {
@@ -14323,7 +14323,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Reflection extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInReflection() throws Exception {
@@ -14342,7 +14342,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class InterfaceFlag extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInInterfaceFlag() throws Exception {
@@ -14365,7 +14365,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class JavaDefaults extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInJavaDefaults() throws Exception {
@@ -14429,7 +14429,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class JvmField extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInJvmField() throws Exception {
@@ -14557,7 +14557,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class JvmName extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInJvmName() throws Exception {
@@ -14644,7 +14644,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class FileFacades extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInFileFacades() throws Exception {
@@ -14673,7 +14673,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class JvmOverloads extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInJvmOverloads() throws Exception {
@@ -14786,7 +14786,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class JvmPackageName extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInJvmPackageName() throws Exception {
@@ -14824,7 +14824,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class JvmStatic extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInJvmStatic() throws Exception {
@@ -14982,7 +14982,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Labels extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInLabels() throws Exception {
@@ -15035,7 +15035,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class LazyCodegen extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInLazyCodegen() throws Exception {
@@ -15092,7 +15092,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Optimizations extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInOptimizations() throws Exception {
@@ -15151,7 +15151,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class LocalClasses extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInLocalClasses() throws Exception {
@@ -15329,7 +15329,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Mangling extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInMangling() throws Exception {
@@ -15387,7 +15387,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class MixedNamedPosition extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInMixedNamedPosition() throws Exception {
@@ -15415,7 +15415,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class MultiDecl extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInMultiDecl() throws Exception {
@@ -15497,7 +15497,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForIterator extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForIterator() throws Exception {
@@ -15534,7 +15534,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class LongIterator extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInLongIterator() throws Exception {
@@ -15568,7 +15568,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForRange extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForRange() throws Exception {
@@ -15615,7 +15615,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class ExplicitRangeTo extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInExplicitRangeTo() throws Exception {
@@ -15652,7 +15652,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class Int extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInInt() throws Exception {
@@ -15685,7 +15685,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class Long extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInLong() throws Exception {
@@ -15719,7 +15719,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class ExplicitRangeToWithDot extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInExplicitRangeToWithDot() throws Exception {
@@ -15756,7 +15756,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class Int extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInInt() throws Exception {
@@ -15789,7 +15789,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class Long extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInLong() throws Exception {
@@ -15823,7 +15823,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Int extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInInt() throws Exception {
@@ -15856,7 +15856,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Long extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInLong() throws Exception {
@@ -15891,7 +15891,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class MultifileClasses extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInMultifileClasses() throws Exception {
@@ -15968,7 +15968,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Optimized extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInOptimized() throws Exception {
@@ -16022,7 +16022,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Multiplatform extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInMultiplatform() throws Exception {
@@ -16059,7 +16059,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class DefaultArguments extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInDefaultArguments() throws Exception {
@@ -16187,7 +16187,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class MultiModule extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInMultiModule() throws Exception {
@@ -16216,7 +16216,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class NonLocalReturns extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInNonLocalReturns() throws Exception {
@@ -16259,7 +16259,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class NullCheckOptimization extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInNullCheckOptimization() throws Exception {
@@ -16327,7 +16327,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class ObjectIntrinsics extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInObjectIntrinsics() throws Exception {
@@ -16345,7 +16345,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Objects extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInObjects() throws Exception {
@@ -16707,7 +16707,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class CompanionObjectAccess extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInCompanionObjectAccess() throws Exception {
@@ -16799,7 +16799,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class MultipleCompanionsWithAccessors extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 @TestMetadata("accessFromInlineLambda.kt")
@@ -16872,7 +16872,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class PrimitiveCompanion extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInPrimitiveCompanion() throws Exception {
@@ -16922,7 +16922,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class OperatorConventions extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInOperatorConventions() throws Exception {
@@ -17029,7 +17029,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class CompareTo extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInCompareTo() throws Exception {
@@ -17093,7 +17093,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Optimizations extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInOptimizations() throws Exception {
@@ -17116,7 +17116,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Package extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInPackage() throws Exception {
@@ -17189,11 +17189,11 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class ParametersMetadata extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         private void runTestWithPackageReplacement(String testDataFilePath, String packageName) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(filePath -> doTestWithCoroutinesPackageReplacement(filePath, packageName), TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInParametersMetadata() throws Exception {
@@ -17256,7 +17256,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class PlatformTypes extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInPlatformTypes() throws Exception {
@@ -17283,7 +17283,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Primitives extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInPrimitives() throws Exception {
@@ -17402,7 +17402,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class PolymorphicSignature extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInPolymorphicSignature() throws Exception {
@@ -17455,7 +17455,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class PrimitiveTypes extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInPrimitiveTypes() throws Exception {
@@ -17747,7 +17747,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class EqualityWithObject extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInEqualityWithObject() throws Exception {
@@ -17799,7 +17799,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Generated extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInGenerated() throws Exception {
@@ -17904,7 +17904,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Private extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInPrivate() throws Exception {
@@ -17927,7 +17927,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class PrivateConstructors extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInPrivateConstructors() throws Exception {
@@ -18005,7 +18005,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Properties extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         @TestMetadata("accessToPrivateProperty.kt")
@@ -18382,7 +18382,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Const extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInConst() throws Exception {
@@ -18425,7 +18425,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Lateinit extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             @TestMetadata("accessor.kt")
@@ -18502,7 +18502,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class IsInitializedAndDeinitialize extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInIsInitializedAndDeinitialize() throws Exception {
@@ -18560,7 +18560,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Local extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInLocal() throws Exception {
@@ -18608,7 +18608,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class TopLevel extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 @TestMetadata("accessorException.kt")
@@ -18648,7 +18648,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class PublishedApi extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInPublishedApi() throws Exception {
@@ -18676,7 +18676,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Ranges extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInRanges() throws Exception {
@@ -18763,7 +18763,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Contains extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInContains() throws Exception {
@@ -18930,7 +18930,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Generated extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInGenerated() throws Exception {
@@ -19014,7 +19014,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class EvaluationOrder extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInEvaluationOrder() throws Exception {
@@ -19071,7 +19071,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Stepped extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInStepped() throws Exception {
@@ -19083,7 +19083,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class ForInDownTo extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInForInDownTo() throws Exception {
@@ -19136,7 +19136,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class ForInRangeLiteral extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInForInRangeLiteral() throws Exception {
@@ -19189,7 +19189,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class ForInUntil extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInForInUntil() throws Exception {
@@ -19244,7 +19244,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Expression extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInExpression() throws Exception {
@@ -19407,7 +19407,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForInDownTo extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForInDownTo() throws Exception {
@@ -19445,7 +19445,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForInIndices extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForInIndices() throws Exception {
@@ -19553,7 +19553,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForInProgressionWithIndex extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForInProgressionWithIndex() throws Exception {
@@ -19636,7 +19636,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForInReversed extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForInReversed() throws Exception {
@@ -19739,7 +19739,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForInUntil extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForInUntil() throws Exception {
@@ -19822,7 +19822,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ForWithPossibleOverflow extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInForWithPossibleOverflow() throws Exception {
@@ -19900,7 +19900,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class JavaInterop extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInJavaInterop() throws Exception {
@@ -20007,7 +20007,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class WithIndex extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInWithIndex() throws Exception {
@@ -20086,7 +20086,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Literal extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInLiteral() throws Exception {
@@ -20249,7 +20249,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class NullableLoopParameter extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInNullableLoopParameter() throws Exception {
@@ -20277,7 +20277,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Stepped extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInStepped() throws Exception {
@@ -20289,7 +20289,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Expression extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInExpression() throws Exception {
@@ -20301,7 +20301,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class DownTo extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInDownTo() throws Exception {
@@ -20393,7 +20393,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class NestedStep extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInNestedStep() throws Exception {
@@ -20446,7 +20446,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class Reversed extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInReversed() throws Exception {
@@ -20490,7 +20490,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class RangeTo extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInRangeTo() throws Exception {
@@ -20582,7 +20582,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class NestedStep extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInNestedStep() throws Exception {
@@ -20635,7 +20635,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class Reversed extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInReversed() throws Exception {
@@ -20679,7 +20679,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class Until extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInUntil() throws Exception {
@@ -20776,7 +20776,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class NestedStep extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInNestedStep() throws Exception {
@@ -20829,7 +20829,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class Reversed extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInReversed() throws Exception {
@@ -20874,7 +20874,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Literal extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInLiteral() throws Exception {
@@ -20886,7 +20886,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class DownTo extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInDownTo() throws Exception {
@@ -20978,7 +20978,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class NestedStep extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInNestedStep() throws Exception {
@@ -21031,7 +21031,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class Reversed extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInReversed() throws Exception {
@@ -21075,7 +21075,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class RangeTo extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInRangeTo() throws Exception {
@@ -21167,7 +21167,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class NestedStep extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInNestedStep() throws Exception {
@@ -21220,7 +21220,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class Reversed extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInReversed() throws Exception {
@@ -21264,7 +21264,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                 @RunWith(JUnit3RunnerWithInners.class)
                 public static class Until extends AbstractFirBlackBoxCodegenTest {
                     private void runTest(String testDataFilePath) throws Exception {
-                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                        KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                     }
 
                     public void testAllFilesPresentInUntil() throws Exception {
@@ -21361,7 +21361,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class NestedStep extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInNestedStep() throws Exception {
@@ -21414,7 +21414,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
                     @RunWith(JUnit3RunnerWithInners.class)
                     public static class Reversed extends AbstractFirBlackBoxCodegenTest {
                         private void runTest(String testDataFilePath) throws Exception {
-                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                         }
 
                         public void testAllFilesPresentInReversed() throws Exception {
@@ -21460,7 +21460,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Unsigned extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInUnsigned() throws Exception {
@@ -21482,7 +21482,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Expression extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInExpression() throws Exception {
@@ -21645,7 +21645,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Literal extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInLiteral() throws Exception {
@@ -21810,7 +21810,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Reflection extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInReflection() throws Exception {
@@ -21822,7 +21822,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Annotations extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInAnnotations() throws Exception {
@@ -21929,7 +21929,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class OnTypes extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInOnTypes() throws Exception {
@@ -21963,7 +21963,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Builtins extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInBuiltins() throws Exception {
@@ -21991,7 +21991,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Call extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInCall() throws Exception {
@@ -22123,7 +22123,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Bound extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInBound() throws Exception {
@@ -22201,7 +22201,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class InlineClasses extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInInlineClasses() throws Exception {
@@ -22280,7 +22280,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class CallBy extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInCallBy() throws Exception {
@@ -22413,7 +22413,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ClassLiterals extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInClassLiterals() throws Exception {
@@ -22466,7 +22466,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Classes extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInClasses() throws Exception {
@@ -22559,7 +22559,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Constructors extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInConstructors() throws Exception {
@@ -22602,7 +22602,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class CreateAnnotation extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInCreateAnnotation() throws Exception {
@@ -22675,7 +22675,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Enclosing extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInEnclosing() throws Exception {
@@ -22813,7 +22813,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Functions extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInFunctions() throws Exception {
@@ -22886,7 +22886,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class GenericSignature extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInGenericSignature() throws Exception {
@@ -22984,7 +22984,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class IsInstance extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInIsInstance() throws Exception {
@@ -23002,7 +23002,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class KClassInAnnotation extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInKClassInAnnotation() throws Exception {
@@ -23060,7 +23060,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class LambdaClasses extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInLambdaClasses() throws Exception {
@@ -23108,7 +23108,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Mapping extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInMapping() throws Exception {
@@ -23210,7 +23210,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class FakeOverrides extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInFakeOverrides() throws Exception {
@@ -23233,7 +23233,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class JvmStatic extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInJvmStatic() throws Exception {
@@ -23256,7 +23256,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Types extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInTypes() throws Exception {
@@ -23365,7 +23365,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class MethodsFromAny extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInMethodsFromAny() throws Exception {
@@ -23483,7 +23483,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Modifiers extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInModifiers() throws Exception {
@@ -23541,7 +23541,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class MultifileClasses extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInMultifileClasses() throws Exception {
@@ -23569,7 +23569,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class NoReflectAtRuntime extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInNoReflectAtRuntime() throws Exception {
@@ -23616,7 +23616,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class MethodsFromAny extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInMethodsFromAny() throws Exception {
@@ -23645,7 +23645,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Parameters extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInParameters() throws Exception {
@@ -23733,7 +23733,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Properties extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInProperties() throws Exception {
@@ -23890,7 +23890,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Accessors extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 @TestMetadata("accessorNames.kt")
@@ -23928,7 +23928,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class GetDelegate extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInGetDelegate() throws Exception {
@@ -24016,7 +24016,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class JvmField extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInJvmField() throws Exception {
@@ -24044,7 +24044,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class LocalDelegated extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInLocalDelegated() throws Exception {
@@ -24088,7 +24088,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Supertypes extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInSupertypes() throws Exception {
@@ -24126,7 +24126,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class TypeOf extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInTypeOf() throws Exception {
@@ -24163,7 +24163,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Js extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInJs() throws Exception {
@@ -24176,7 +24176,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class NoReflect extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInNoReflect() throws Exception {
@@ -24205,7 +24205,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class TypeParameters extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInTypeParameters() throws Exception {
@@ -24233,7 +24233,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Types extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInTypes() throws Exception {
@@ -24305,7 +24305,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class CreateType extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInCreateType() throws Exception {
@@ -24343,7 +24343,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
             @RunWith(JUnit3RunnerWithInners.class)
             public static class Subtyping extends AbstractFirBlackBoxCodegenTest {
                 private void runTest(String testDataFilePath) throws Exception {
-                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                    KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
                 }
 
                 public void testAllFilesPresentInSubtyping() throws Exception {
@@ -24378,7 +24378,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Regressions extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInRegressions() throws Exception {
@@ -24846,7 +24846,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Reified extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInReified() throws Exception {
@@ -25008,7 +25008,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class ArraysReification extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInArraysReification() throws Exception {
@@ -25052,7 +25052,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class SafeCall extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInSafeCall() throws Exception {
@@ -25130,7 +25130,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Sam extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInSam() throws Exception {
@@ -25227,7 +25227,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class Constructors extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInConstructors() throws Exception {
@@ -25316,7 +25316,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Sealed extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInSealed() throws Exception {
@@ -25339,7 +25339,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class SecondaryConstructors extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         @TestMetadata("accessToCompanion.kt")
@@ -25512,7 +25512,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class SignatureAnnotations extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInSignatureAnnotations() throws Exception {
@@ -25590,7 +25590,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Smap extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInSmap() throws Exception {
@@ -25618,7 +25618,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class SmartCasts extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInSmartCasts() throws Exception {
@@ -25706,7 +25706,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class SpecialBuiltins extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInSpecialBuiltins() throws Exception {
@@ -25854,7 +25854,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Statics extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInStatics() throws Exception {
@@ -25952,7 +25952,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class StoreStackBeforeInline extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInStoreStackBeforeInline() throws Exception {
@@ -25990,7 +25990,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Strings extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInStrings() throws Exception {
@@ -26113,7 +26113,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Super extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInSuper() throws Exception {
@@ -26275,7 +26275,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class SuperConstructor extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInSuperConstructor() throws Exception {
@@ -26324,7 +26324,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Synchronized extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInSynchronized() throws Exception {
@@ -26392,7 +26392,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class SyntheticAccessors extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         @TestMetadata("accessorForGenericConstructor.kt")
@@ -26495,7 +26495,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Throws extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInThrows() throws Exception {
@@ -26518,7 +26518,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class ToArray extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInToArray() throws Exception {
@@ -26571,7 +26571,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class TopLevelPrivate extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInTopLevelPrivate() throws Exception {
@@ -26614,7 +26614,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class TrailingComma extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInTrailingComma() throws Exception {
@@ -26632,7 +26632,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Traits extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         @TestMetadata("abstractClassInheritsFromInterface.kt")
@@ -26815,7 +26815,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class TypeInfo extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInTypeInfo() throws Exception {
@@ -26863,7 +26863,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class TypeMapping extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInTypeMapping() throws Exception {
@@ -26936,7 +26936,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Typealias extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInTypealias() throws Exception {
@@ -27044,7 +27044,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class UnaryOp extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInUnaryOp() throws Exception {
@@ -27087,7 +27087,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Unit extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInUnit() throws Exception {
@@ -27155,7 +27155,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class UnsignedTypes extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInUnsignedTypes() throws Exception {
@@ -27353,7 +27353,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class Vararg extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInVararg() throws Exception {
@@ -27431,7 +27431,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
     @RunWith(JUnit3RunnerWithInners.class)
     public static class When extends AbstractFirBlackBoxCodegenTest {
         private void runTest(String testDataFilePath) throws Exception {
-            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+            KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
         }
 
         public void testAllFilesPresentInWhen() throws Exception {
@@ -27638,7 +27638,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class EnumOptimization extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInEnumOptimization() throws Exception {
@@ -27741,7 +27741,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class StringOptimization extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInStringOptimization() throws Exception {
@@ -27799,7 +27799,7 @@ public class FirBlackBoxCodegenTestGenerated extends AbstractFirBlackBoxCodegenT
         @RunWith(JUnit3RunnerWithInners.class)
         public static class WhenSubjectVariable extends AbstractFirBlackBoxCodegenTest {
             private void runTest(String testDataFilePath) throws Exception {
-                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_FIR: ");
+                KotlinTestUtils.runTestWithCustomIgnoreDirective(this::doTest, TargetBackend.JVM_IR, testDataFilePath, "// IGNORE_BACKEND_XXX: ");
             }
 
             public void testAllFilesPresentInWhenSubjectVariable() throws Exception {

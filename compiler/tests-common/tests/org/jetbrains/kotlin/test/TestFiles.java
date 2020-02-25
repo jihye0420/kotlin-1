@@ -59,7 +59,10 @@ public class TestFiles {
         if (!matcher.find()) {
             assert testFileName != null : "testFileName should not be null if no FILE directive defined";
             // One file
-            testFiles.add(factory.createFile(null, testFileName, expectedText, directives));
+            F file = factory.createFile(null, testFileName, expectedText, directives);
+            if (file != null) {
+                testFiles.add(file);
+            }
         }
         else {
             int processedChars = 0;

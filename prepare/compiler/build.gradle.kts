@@ -216,8 +216,7 @@ dependencies {
 
 publish()
 
-val packCompiler by task<ShadowJar> {
-    configurations = emptyList()
+val packCompiler by task<Jar> {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     destinationDirectory.set(File(buildDir, "libs"))
     archiveClassifier.set("before-proguard")

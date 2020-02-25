@@ -131,7 +131,7 @@ public final class Namer {
 
     public static final String IMPORTS_FOR_INLINE_PROPERTY = "$$importsForInline$$";
 
-    public static final String SAM_FIELD_NAME = "function";
+    public static final String SAM_FIELD_NAME = "function$";
 
     @NotNull
     public static String getFunctionTag(@NotNull CallableDescriptor functionDescriptor, @NotNull JsConfig config) {

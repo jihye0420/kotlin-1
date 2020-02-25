@@ -5,23 +5,23 @@
 // SKIP_DCE_DRIVEN
 
 fun interface Base {
-    fun invoke(): String
+    fun doStuff(): String
 }
 
 fun interface I : Base
 
 fun interface Proxy : I {
 
-    override fun invoke(): String = invokeInt().toString()
+    override fun doStuff(): String = doStuffInt().toString()
 
-    fun invokeInt(): Int
+    fun doStuffInt(): Int
 }
 
-fun runBase(b: Base) = b.invoke()
+fun runBase(b: Base) = b.doStuff()
 
-fun runI(i: I) = i.invoke()
+fun runI(i: I) = i.doStuff()
 
-fun runProxy(p: Proxy) = p.invoke()
+fun runProxy(p: Proxy) = p.doStuff()
 
 fun box(): String {
 

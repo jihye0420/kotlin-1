@@ -593,14 +593,14 @@ class Fir2IrDeclarationStorage(
 
     private fun createIrPropertyAccessor(
         propertyAccessor: FirPropertyAccessor?,
+        property: FirProperty,
         correspondingProperty: IrProperty,
         propertyType: IrType,
         irParent: IrDeclarationParent?,
         isSetter: Boolean,
         origin: IrDeclarationOrigin,
         startOffset: Int,
-        endOffset: Int,
-        correspondingPropertyReceiverTypeRef: FirTypeRef?
+        endOffset: Int
     ): IrSimpleFunction {
         val propertyDescriptor = correspondingProperty.descriptor
         val descriptor =
@@ -626,9 +626,10 @@ class Fir2IrDeclarationStorage(
                 if (propertyAccessor == null && isSetter) {
                     declareDefaultSetterParameter(propertyType)
                 }
+                setTypeParameters(property)
             }.bindAndDeclareParameters(
                 propertyAccessor, descriptor, irParent, isStatic = irParent !is IrClass, shouldLeaveScope = true,
-                parentPropertyReceiverType = correspondingPropertyReceiverTypeRef
+                parentPropertyReceiverType = property.receiverTypeRef
             ).apply {
                 if (irParent != null) {
                     parent = irParent
@@ -705,26 +706,24 @@ class Fir2IrDeclarationStorage(
                     ).apply {
                         descriptor.bind(this)
                         val type = property.returnTypeRef.toIrType(session, this@Fir2IrDeclarationStorage)
-                        val receiverType = property.receiverTypeRef
                         getter = createIrPropertyAccessor(
-                            property.getter, this, type, irParent, false,
+                            property.getter, property, this, type, irParent, false,
                             when {
                                 property.delegate != null -> IrDeclarationOrigin.DELEGATED_PROPERTY_ACCESSOR
                                 property.getter is FirDefaultPropertyGetter -> IrDeclarationOrigin.DEFAULT_PROPERTY_ACCESSOR
                                 else -> origin
                             },
-                            startOffset, endOffset, correspondingPropertyReceiverTypeRef = receiverType
+                            startOffset, endOffset
                         )
                         if (property.isVar) {
                             setter = createIrPropertyAccessor(
-                                property.setter, this, type, irParent, true,
+                                property.setter, property, this, type, irParent, true,
                                 when {
                                     property.delegate != null -> IrDeclarationOrigin.DELEGATED_PROPERTY_ACCESSOR
                                     property.setter is FirDefaultPropertySetter -> IrDeclarationOrigin.DEFAULT_PROPERTY_ACCESSOR
                                     else -> origin
                                 },
-                                startOffset, endOffset,
-                                correspondingPropertyReceiverTypeRef = receiverType
+                                startOffset, endOffset
                             )
                         }
                     }
